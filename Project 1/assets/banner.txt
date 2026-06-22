@@ -1,0 +1,6 @@
+==================================================
+        RULE-BASED AI CHATBOT — LOGIC ENGINE
+==================================================
+  Deterministic. Explainable. Zero hallucinations.
+  Type 'help' to see what I can do, or 'exit' to quit.
+==================================================

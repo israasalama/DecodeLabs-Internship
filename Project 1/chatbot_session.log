@@ -1,0 +1,9 @@
+2026-06-22T19:55:49.550573 | raw='help' | clean='help' | type=INTENT | response='Supported commands: hello, hi, help, bye, how are you, what can you do, your name, who made you, thanks, joke, history, clear, mode, exit.'
+2026-06-22T19:55:55.212996 | raw='hi ' | clean='hi' | type=INTENT | response='Hello! How can I help you today?'
+2026-06-22T19:56:03.401112 | raw="what's your name " | clean="what's your name" | type=FALLBACK | response='I do not understand.'
+2026-06-22T19:56:11.441604 | raw='what is 7+6' | clean='what is 7+6' | type=FALLBACK | response='I do not understand.'
+2026-06-22T19:56:19.210444 | raw='who made you' | clean='who made you' | type=INTENT | response='I was built as Project 1 of the DecodeLabs AI track.'
+2026-06-22T19:56:28.404138 | raw='your name' | clean='your name' | type=INTENT | response="I'm the Logic Engine, a rule-based chatbot."
+2026-06-22T19:56:36.611704 | raw='mode' | clean='mode' | type=FALLBACK | response='I do not understand.'
+2026-06-22T19:56:51.774678 | raw='joke ' | clean='joke' | type=INTENT | response='Why do programmers prefer dark mode? Because light attracts bugs.'
+2026-06-22T19:57:00.439851 | raw='exit ' | clean='exit' | type=EXIT | response='Goodbye! Have a great day.'
