@@ -1,0 +1,22 @@
+# Iris Classification System Configuration
+application:
+  name: "Iris Flower Classification System"
+  version: "1.0.0"
+  description: "KNN-based supervised learning classification"
+
+ml:
+  random_seed: 42
+  test_split_ratio: 0.2
+  default_k: 3
+  k_range: [1, 3, 5, 7, 9, 11, 13, 15]
+  scaling: "StandardScaler"
+
+logging:
+  level: "INFO"
+  log_file: "logs/experiment.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+cli:
+  show_warnings: true
+  history_size: 50
+  default_personality: "professional"
