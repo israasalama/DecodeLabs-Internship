@@ -1,0 +1,9 @@
+# Tech Stack Recommender — Project 3
+# This project deliberately uses ONLY the Python standard library
+# (math, csv, dataclasses, collections) to demonstrate the underlying
+# similarity mathematics from first principles, as required by the
+# project spec ("master the fundamental art ... using pure similarity
+# logic" before reaching for libraries like scikit-learn).
+#
+# Dev/test dependency:
+pytest>=8.0.0
